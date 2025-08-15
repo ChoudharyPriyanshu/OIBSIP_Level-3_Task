@@ -1,0 +1,44 @@
+PIZZA-APP
+└── backend
+    ├── config
+    │   ├── db.js
+    │   └── mailConfig.js
+    │
+    ├── controllers
+    │   ├── authController.js
+    │   ├── inventoryController.js
+    │   ├── orderController.js
+    │   ├── pizzaController.js
+    │   └── userController.js
+    │
+    ├── middlewares
+    │   └── authMiddleware.js
+    │
+    ├── models
+    │   ├── Inventory.js
+    │   ├── Order.js
+    │   ├── Pizza.js
+    │   ├── Token.js
+    │   └── User.js
+    │
+    ├── node_modules
+    │
+    ├── routes
+    │   ├── authRoutes.js
+    │   ├── inventoryRoutes.js
+    │   ├── orderRoutes.js
+    │   ├── pizzaRoutes.js
+    │   └── userRoutes.js
+    │
+    ├── seeder
+    │   └── pizzaSeeder.js
+    │
+    ├── utils
+    │   └── sendEmail.js
+    │
+    ├── .env
+    ├── .gitignore
+    ├── fileStructure.txt
+    ├── package-lock.json
+    ├── package.json
+    └── server.js
